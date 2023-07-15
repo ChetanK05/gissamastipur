@@ -4,28 +4,35 @@
     box-sizing: border-box;
 }
 /* Header Section Start */
+.bg-primary2{
+    background: #12107e;
+}
+.btn-primary2{
+    background: #12107e;
+}
+.text-primary2{
+    color: #12107e;
+}
 .navbar{
+    margin: 0px;
     padding: 0px;
-    height: 85px;
 }
 .nav-item{
     position: relative;
-    display: inline-block;
-    line-height: 85px;
+    display: block;
+    padding: 0px 10px;
 }
 .nav-item:hover{
-    background: #ffc107;
+    background: #12107e;
 }
 header .navbar .nav-item .nav-link{    
     font-size: 14px;
     font-weight: bold;
     color: #000;
-    padding: 0px 25px;
-    line-height: 85px;
+    line-height: 75px;
 }
 header .navbar .nav-item .nav-link:hover{
     color: #fff;
-    background:#ffc107;
 }
 .dropdown-menu{
     padding: 0px;
@@ -33,20 +40,20 @@ header .navbar .nav-item .nav-link:hover{
     border-radius: 0px;    
     display: none;
     position: absolute;
+    margin-left: -10px;
 }
 .dropdown-menu .dropdown-item{
     border-radius: 0px;
     width: 270px;
-    line-height: 30px;
+    padding: 10px 0px;
     font-size: 14px;
     font-weight: 500;
-    padding-left: 25px;
+    padding-left: 20px;
     border-bottom: 0.5px solid #e1dfdf;
 }
 .dropdown-menu .dropdown-item:hover{
-    background: #ffc107;
+    background: #12107e;
     color: #fff;
-    margin-top: -3px;
 }
 .nav-item:hover .dropdown-menu{
     display: block;
@@ -56,11 +63,17 @@ header .navbar .nav-item .nav-link:hover{
     width: 50px;
     margin-right: 30px;
 }
+#search:hover{
+    background: #fd0002;
+}
 #login{
     margin-left: 30px;
     margin-right: 10px;
     height: 50px;
     width: 170px;
+}
+#login:hover{
+    background: #fd0002;
 }
 #login a{
     text-decoration: none;
@@ -93,4 +106,80 @@ header .navbar .nav-item .nav-link:hover{
     color: #fff;
     margin-top: 20px;
 }
+.carousel-item #enrollbtn{
+    background: #12107e;
+}
+.carousel-item #enrollbtn:hover{
+    background: #fd0002;
+}
+.carousel-item #outlinebtn:hover{
+    background: #fd0002;
+    border: #fd0002;
+}
 /* Slider Section End */
+/* Our Course Section Start */
+.categories_wrap{
+    z-index: 10;
+    margin-top: -70px;
+    position: relative;
+}
+.categories_wrap .row{
+    margin-left: 120px;
+}
+#expert{
+    width: 235px;
+    height: 240px;
+    background: #f0aa00;
+    border-radius: 12px;
+    margin-right: 35px;
+}
+#quality{
+    width: 235px;
+    height: 240px;
+    background: #ff002a;
+    border-radius: 12px;
+    margin-right: 35px;
+}
+#support{
+    width: 235px;
+    height: 240px;
+    background: #003d69;
+    border-radius: 12px;
+    margin-right: 35px;
+}
+#news{
+    width: 235px;
+    height: 240px;
+    background: #3db2d5;
+    border-radius: 12px;
+}
+#inner-icon{
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+    background: #fff;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 42px;
+}
+#text h4{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+#text h4 span::before{
+    content: "";
+    background: #fff;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    top: 53%;
+    margin-left: -20px;
+}
+#text p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+/* Our Course Section Ends */

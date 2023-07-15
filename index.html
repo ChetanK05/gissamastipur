@@ -12,15 +12,19 @@
 <body>
     <!-- Header Section Start -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg col-lg-12 col-md-12 bg-white">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="./assest/img/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand ms-3" href="index.html">
+                <img src="./assest/img/Logogis1.png" class="img-fluid" width="80px" height="80px" alt="">
+                <img src="./assest/img/logogis2.png" class="img-fluid" width="200px" height="80px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                  <li class="nav-item bg-warning">
+                  <li class="nav-item bg-primary2">
                     <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
                   </li>
                   <li class="nav-item">
@@ -76,9 +80,9 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <button class="btn btn-warning rounded-circle" id="search"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></a></button>
+                  <button class="btn btn-primary2 rounded-circle" id="search"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></a></button>
                   <span class="border border-right"></span>
-                  <button class="btn btn-warning" id="login" style="color: white;"><a href="">Login/Register</a></button>
+                  <button class="btn btn-primary2" id="login" style="color: white;"><a href="">Login/Register</a></button>
                 </form>
               </div>
             </div>
@@ -86,28 +90,28 @@
     </header>
     <!-- Header Section End -->
     <!-- Slider Section Start -->
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-bs-interval="3000">
           <img src="./assest/img/slider.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block">
-            <h1>International School</h1>
+            <h1>Gyansthali International School</h1>
             <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 possimus fugit nam praesentium quo nemo reprehenderit vero qui odit incidunt recusandae, 
                 aperiam ut laudantium placeat exercitationem quam harum voluptatem!</h5>
-                <button class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;ENROLL TODAY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="btn btn-outline-light"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULE A TOUR</button>
+                <button class="btn" id="enrollbtn"><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;ENROLL TODAY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-outline-light" id="outlinebtn"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULE A TOUR</button>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./assest/img/slider1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block">
             <h1>Education Bright Future</h1>
             <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               possimus fugit nam praesentium quo nemo reprehenderit vero qui odit incidunt recusandae, 
               aperiam ut laudantium placeat exercitationem quam harum voluptatem!</h5>
-              <button class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;ENROLL TODAY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <button class="btn btn-outline-light"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULE A TOUR</button>
+              <button class="btn" id="enrollbtn"><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;ENROLL TODAY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="btn btn-outline-light" id="outlinebtn"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULE A TOUR</button>
           </div>
         </div>
       </div>
@@ -121,6 +125,50 @@
       </button>
     </div>
     <!-- Slider Section End -->
+    <!-- Our Course Section Start -->
+    <div class="container">
+      <div class="categories_wrap ">
+        <div class="row">
+          <div class="col-lg-3" id="expert">
+            <div id="inner-icon">
+              <img src="./assest/img/teacher.png" alt="">
+            </div>
+            <div id="text">
+              <h4 class="py-3">Expert teachers <br> <span></span></h4> 
+              <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+            </div>
+          </div>
+          <div class="col-lg-3" id="quality">
+            <div id="inner-icon">
+              <img src="./assest/img/book.png" alt="">
+            </div>
+            <div id="text">
+              <h4 class="py-3">Quality Education <br> <span></span></h4>
+              <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+            </div>
+          </div>
+          <div class="col-lg-3" id="support">
+            <div id="inner-icon">
+              <img src="./assest/img/support.png" alt="">
+            </div>
+            <div id="text">
+              <h4 class="py-3">Life Time Support <br> <span></span></h4>
+              <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+            </div>
+          </div>
+          <div class="col-lg-3" id="news">
+            <div id="inner-icon">
+              <img src="./assest/img/scholarship.png" alt="">
+            </div>
+            <div id="text">
+              <h4 class="py-3">Scholarship News <br> <span></span></h4>
+              <p class="mt-2">Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Course Section End -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assest/js/script.js"></script>
