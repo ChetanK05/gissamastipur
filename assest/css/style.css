@@ -196,6 +196,9 @@ header .navbar .nav-item a{
 #aboutimg .col-lg-5{
     width: 33%;
 }
+#aboutimg .col-lg-7 img{
+    margin-left: 40px;
+}
 #education-icon{
     background: #003d69;
     border-radius: 100%;
@@ -217,7 +220,7 @@ header .navbar .nav-item a{
 #aboutpara{
     text-align: justify;
     margin: 30px 0px;
-}
+}   
 .education-img{
     margin-top: 20px;
     margin-left: 4px;
