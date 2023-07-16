@@ -20,19 +20,21 @@
 .nav-item{
     position: relative;
     display: block;
-    padding: 0px 10px;
+    padding: 27px 10px;
 }
 .nav-item:hover{
     background: #12107e;
 }
-header .navbar .nav-item .nav-link{    
+header .navbar .nav-item a{    
     font-size: 14px;
     font-weight: bold;
     color: #000;
-    line-height: 75px;
 }
-header .navbar .nav-item .nav-link:hover{
+.nav-item:hover .nav-link{
     color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .dropdown-menu{
     padding: 0px;
@@ -40,6 +42,7 @@ header .navbar .nav-item .nav-link:hover{
     border-radius: 0px;    
     display: none;
     position: absolute;
+    margin-top: 28px;
     margin-left: -10px;
 }
 .dropdown-menu .dropdown-item{
@@ -47,13 +50,15 @@ header .navbar .nav-item .nav-link:hover{
     width: 270px;
     padding: 10px 0px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 500 !important;
     padding-left: 20px;
     border-bottom: 0.5px solid #e1dfdf;
 }
 .dropdown-menu .dropdown-item:hover{
     background: #12107e;
     color: #fff;
+    font-size: 14px;
+    font-weight: 500;
 }
 .nav-item:hover .dropdown-menu{
     display: block;
