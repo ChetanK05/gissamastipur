@@ -188,3 +188,47 @@ header .navbar .nav-item a{
     font-size: 16px;
 }
 /* Our Course Section Ends */
+/* About img section start */
+#aboutimg .col-lg-7{
+    width: 51%;
+    margin-left: 90px;
+}
+#aboutimg .col-lg-5{
+    width: 33%;
+}
+#education-icon{
+    background: #003d69;
+    border-radius: 100%;
+    width: 60px;
+    height: 85px;
+}
+#education-icon1{
+    background: #3ab64c;
+    border-radius: 100%;
+    width: 60px;
+    height: 85px;
+}
+#education-icon2{
+    background: #dd1146;
+    border-radius: 100%;
+    width: 60px;
+    height: 85px;
+}
+#aboutpara{
+    text-align: justify;
+    margin: 30px 0px;
+}
+.education-img{
+    margin-top: 20px;
+    margin-left: 4px;
+}
+#eduicon1{
+    width: 16%;
+}
+#aboutimg .col-lg-9{
+    margin-left: 15px;
+}
+#aboutimg .col-lg-9 p{
+    text-align: justify;
+}
+/* About img section End */
